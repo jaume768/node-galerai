@@ -38,7 +38,7 @@ app.post('/generate', upload.single('image'), async (req, res) => {
         const prompt = [
             {
                 type: "text",
-                text: "¿Qué hay en esta imagen? Responde en el siguiente formato:\nDescripción: [Tu descripción aquí]\nTags: [etiqueta1, etiqueta2, etiqueta3]"
+                text: "¿Qué hay en esta imagen? Responde en el siguiente formato:\nDescripción: [Tu descripción aquí]\nTags: [etiqueta1, etiqueta2, etiqueta3,etiqueta4,etiqueta5]"
             },
             {
                 type: "image_url",
